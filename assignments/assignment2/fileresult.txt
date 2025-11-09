@@ -1,0 +1,5 @@
+vboxuser@ubunut-vm:~/assignment-2-seto2103/finder-app$ make CROSS_COMPILE=aarch64-none-linux-gnu-
+aarch64-none-linux-gnu-gcc -Wall -Wextra -o writer writer.c
+vboxuser@ubunut-vm:~/assignment-2-seto2103/finder-app$ file writer
+writer: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, with debug_info, not stripped
+vboxuser@ubunut-vm:~/assignment-2-seto2103/finder-app$ 
